@@ -80,4 +80,16 @@ html, body {
     font-size: 25px;
     background-color: #363a6d ;
     color: white;
+    display: inline-block;
+    border: none;
+    border-bottom: 5px solid #4a5097;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #323665;
+}
+
+.form .input-submit {
+    text-align: center;
 }
