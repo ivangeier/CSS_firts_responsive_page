@@ -10,12 +10,14 @@ html, body {
 }
 
 .center {
-    width: 100%;
+    width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header {
     width: 100%;
+    min-width: 1200px;
     height: 60px;
     background-color: #212343
 }
@@ -26,6 +28,7 @@ html, body {
 
 .container-banner {
     width: 100%;
+    min-width: 1200px;
     height: 557px;
     background-image: url('../images/header_bg.png');
     background-position: center;
@@ -42,8 +45,9 @@ html, body {
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 8px solid rgba(120, 120, 120, 0.7);
     background-color: white;
+    background-clip: padding-box;
 }
 
 .form h2 {
@@ -91,5 +95,83 @@ html, body {
 }
 
 .form .input-submit {
+    text-align: center;
+}
+
+.container-list {
+    float: left;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list ul li {
+    color: white;
+    margin-top: 18px;
+}
+
+.container2 {
+    padding: 40px 0;
+    min-width: 1200px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.container2 h2 {
+    font-weight: normal;
+}
+
+.container2 p {
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.container-cards {
+    padding: 90px 0;
+    min-width: 1200px;
+}
+
+.container-cards h2 {
+    text-align: center; 
+    color: #462663;
+    font-weight: normal;
+}
+
+.cards-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.card img {
+    width: 50px;
+}
+
+.card p {
+    padding: 10px 25px;
     text-align: center;
 }
